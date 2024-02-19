@@ -1,9 +1,8 @@
-import { Box, OrbitControls } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import { useControls } from 'leva';
 // import { useFrame } from '@react-three/fiber';
 import { useEffect, useRef } from 'react';
 import { Mesh } from 'three';
-import * as THREE from 'three';
 
 function Element3D() {
   const refMesh = useRef<Mesh | null>(null);
